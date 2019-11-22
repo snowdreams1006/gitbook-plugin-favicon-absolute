@@ -1,0 +1,19 @@
+{% extends template.self %}
+{% block head %}
+    {{ super() }}
+    {% if config.pluginsConfig.favicon-absolute.shortcut %}
+        <link rel="shortcut icon" href='{{ config.pluginsConfig.favicon-absolute.shortcut}}' type="image/x-icon">
+    {% endif %}
+    {% if config.pluginsConfig.favicon-absolute.bookmark %}
+        <link rel="bookmark" href='{{ config.pluginsConfig.favicon-absolute.bookmark}}' type="image/x-icon">
+    {% endif %}
+    {% if config.pluginsConfig.favicon-absolute.appleTouch %}
+        <link rel="apple-touch-icon" href='{{ config.pluginsConfig.favicon-absolute.appleTouch}}'>
+    {% endif %}
+    {% if config.pluginsConfig.favicon-absolute.appleTouchMore %}
+        {% for s,p in config.pluginsConfig.favicon-absolute.appleTouchMore %}
+        <link rel="apple-touch-icon" sizes="{{ s }}" href="{{ p }}">
+        {%  endfor %}
+    {% endif %}
+{% endblock %}
+

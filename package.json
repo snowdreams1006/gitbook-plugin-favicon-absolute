@@ -1,0 +1,60 @@
+{
+  "name": "gitbook-plugin-favicon-absolute",
+  "version": "0.0.1",
+  "description": "favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.",
+  "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "shortcut": {
+        "type": "string",
+        "required": true,
+        "title": "博客id",
+        "description": "OpenWrite 后台申请的博客唯一标识,例如:15702-1569305559839-744"
+      },
+      "bookmark": {
+        "type": "string",
+        "required": true,
+        "title": "博客名称",
+        "description": "OpenWrite 后台申请的博客名称,例如:雪之梦技术驿站"
+      },
+      "appleTouch": {
+        "type": "string",
+        "required": true,
+        "title": "微信公众号二维码",
+        "description": "OpenWrite 后台申请的微信公众号二维码,例如:https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg"
+      },
+      "appleTouchMore": {
+        "type": "string",
+        "required": true,
+        "title": "微信公众号回复关键字",
+        "description": "OpenWrite 后台申请的微信公众号后台回复关键字,例如:vip"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute.git"
+  },
+  "keywords": [
+    "gitbook-plugin-favicon-absolute",
+    "favicon",
+    "absolute",
+    "apple-touch-icon",
+    "shortcut",
+    "icon",
+    "bookmark",
+    "bookmark"
+  ],
+  "author": {
+    "name": "snowdreams1006",
+    "email": "snowdreams1006@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute/issues"
+  },
+  "homepage": "https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/"
+}
