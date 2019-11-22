@@ -23,6 +23,7 @@ module.exports = {
             this.log.debug.ln('finish', this.options.pluginsConfig['favicon-absolute']);
 
             var faviconPathFile = this.options.pluginsConfig['favicon-absolute'] && this.options.pluginsConfig['favicon-absolute'].favicon;
+            
             var faviconAbsolutePath = path.join(process.cwd(), faviconPathFile);
             var gitbookFaviconPath = path.join(process.cwd(), '_book', 'gitbook', 'images', 'favicon.ico');
             if (faviconPathFile && fs.existsSync(faviconPathFile) && fs.existsSync(gitbookFaviconPath)) {
