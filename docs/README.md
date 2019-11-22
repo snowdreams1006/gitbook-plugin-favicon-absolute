@@ -126,19 +126,19 @@ $ gitbook serve
         "favicon-absolute"
     ],
     "pluginsConfig": {
-        "favicon-absolute":{
+    	"favicon-absolute":{
             "favicon": "/favicon.ico",
             "bookmark": "/bookmark.ico",
             "appleTouchIcon152": "/apple-touch-icon-152.png",
             "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png",
-			"appleTouchIconMore": {
-	            "120x120": "/apple-touch-icon-120x120.png",
-	            "180x180": "/apple-touch-icon-180x180.png",
-	        },
-	        "appleTouchIconPrecomposedMore": {
-	            "120x120": "/apple-touch-icon-precomposed-120x120.png",
-	            "180x180": "/apple-touch-icon-precomposed-180x180.png",
-	        }
+            "appleTouchIconMore": {
+                "120x120": "/apple-touch-icon-120.png",
+                "180x180": "/apple-touch-icon-180.png"
+            },
+            "appleTouchIconPrecomposedMore": {
+                "120x120": "/apple-touch-icon-precomposed-120.png",
+                "180x180": "/apple-touch-icon-precomposed-180.png"
+            }
         }
     }
 }
