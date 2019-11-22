@@ -22,18 +22,18 @@ module.exports = {
         "finish": function() {
             this.log.debug.ln('finish', this.options.pluginsConfig['favicon-absolute']);
 
-            var pathFile = this.options.pluginsConfig && this.options.pluginsConfig.favicon;
-            var favicon = path.join(process.cwd(), pathFile);
+            var faviconPathFile = this.options.pluginsConfig['favicon-absolute'] && this.options.pluginsConfig['favicon-absolute'].favicon;
+            var faviconAbsolutePath = path.join(process.cwd(), faviconPathFile);
             var gitbookFaviconPath = path.join(process.cwd(), '_book', 'gitbook', 'images', 'favicon.ico');
-            if (pathFile && fs.existsSync(pathFile) && fs.existsSync(gitbookFaviconPath)) {
+            if (faviconPathFile && fs.existsSync(faviconPathFile) && fs.existsSync(gitbookFaviconPath)) {
                 fs.unlinkSync(gitbookFaviconPath);
-                fs.createReadStream(favicon).pipe(fs.createWriteStream(gitbookFaviconPath));
+                fs.createReadStream(faviconAbsolutePath).pipe(fs.createWriteStream(gitbookFaviconPath));
             }
 
-            var pathFile = this.options.pluginsConfig && this.options.pluginsConfig.appleTouchIconPrecomposed152;
-            var appleTouchIconPrecomposed152 = path.join(process.cwd(), pathFile);
+            var appleTouchIconPrecomposed152PathFile = this.options.pluginsConfig['favicon-absolute'] && this.options.pluginsConfig['favicon-absolute'].appleTouchIconPrecomposed152;
+            var appleTouchIconPrecomposed152 = path.join(process.cwd(), appleTouchIconPrecomposed152PathFile);
             var gitbookAppleTouchPath = path.join(process.cwd(), '_book', 'gitbook', 'images', 'apple-touch-icon-precomposed-152.png');
-            if (pathFile && fs.existsSync(pathFile) && fs.existsSync(gitbookAppleTouchPath)) {
+            if (appleTouchIconPrecomposed152PathFile && fs.existsSync(appleTouchIconPrecomposed152PathFile) && fs.existsSync(gitbookAppleTouchPath)) {
                 fs.unlinkSync(gitbookAppleTouchPath);
                 fs.createReadStream(appleTouchIconPrecomposed152).pipe(fs.createWriteStream(gitbookAppleTouchPath));
             }

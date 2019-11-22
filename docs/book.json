@@ -19,9 +19,8 @@
     ],
     "pluginsConfig": {
         "favicon-absolute":{
-            "shortcut": "/favicon.ico",
-            "bookmark": "/favicon.ico",
-            "appleTouch": "/apple-touch-icon-precomposed-152.png"
+            "favicon": "/favicon.ico",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
         },
         "github-buttons": {
             "buttons": [{

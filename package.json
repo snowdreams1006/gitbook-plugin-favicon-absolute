@@ -8,29 +8,43 @@
   },
   "gitbook": {
     "properties": {
-      "shortcut": {
+      "favicon": {
         "type": "string",
         "required": true,
+        "default": "/favicon.ico",
         "title": "网页图标",
         "description": "网页打开时显示图标"
       },
       "bookmark": {
         "type": "string",
-        "required": true,
+        "required": false,
         "title": "收藏夹图标",
         "description": "网页被收藏时显示图标"
       },
-      "appleTouch": {
+      "appleTouchIcon152": {
         "type": "string",
         "required": false,
-        "title": "Apple 设备默认触摸图标",
-        "description": "Apple 设备触摸时默认显示图标"
+        "title": "Apple 设备152*152触摸图标",
+        "description": "Apple 设备触摸时152*152触摸显示图标"
       },
-      "appleTouchMore": {
+      "appleTouchIconPrecomposed152": {
+        "type": "string",
+        "required": true,
+        "default": "/apple-touch-icon-precomposed-152.png",
+        "title": "Apple 设备152*152触摸高亮图标",
+        "description": "Apple 设备触摸时152*152高亮显示图标"
+      },
+      "appleTouchIconMore": {
         "type": "object",
         "required": false,
         "title": "Apple 设备自定义尺寸触摸图标",
-        "description": "Apple 设备触摸时更多尺寸显示图标"
+        "description": "Apple 设备触摸时自定义尺寸触摸显示图标"
+      },
+      "appleTouchIconPrecomposedMore": {
+        "type": "object",
+        "required": false,
+        "title": "Apple 设备自定义尺寸触摸高亮图标",
+        "description": "Apple 设备触摸时自定义尺寸高亮显示图标"
       }
     }
   },
