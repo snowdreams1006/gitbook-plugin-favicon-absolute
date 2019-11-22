@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-favicon-absolute",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.",
   "main": "index.js",
   "engines": {
