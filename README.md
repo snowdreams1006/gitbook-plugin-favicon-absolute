@@ -47,10 +47,12 @@
 
 其中,配置参数含义如下: 
 
-- `shortcut` : [必选]OpenWrite 后台申请的博客唯一标识,例如:15702-1569305559839-744
-- `bookmark` : [必选]OpenWrite 后台申请的博客名称,例如:雪之梦技术驿站
-- `appleTouch` : [必选]OpenWrite 后台申请的微信公众号二维码,例如:https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
-- `appleTouchMore` : [必选]OpenWrite 后台申请的微信公众号后台回复关键字,例如:vip
+- `shortcut` : [必选]网页打开时显示图标.
+- `bookmark` : [必选]网页被收藏时显示图标.
+- `appleTouch` : [可选]Apple 设备触摸时默认显示图标.
+- `appleTouchMore` : [可选]Apple 设备触摸时更多尺寸显示图标.
+
+> 上述图标位置建议直接放在根目录下,这样就会以绝对路径形式访问,解决相对路径可能设置无效的问题.
 
 ### Step #2 - 运行 gitbook 相关命令
 
