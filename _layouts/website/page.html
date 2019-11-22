@@ -18,4 +18,9 @@
         <link rel="apple-touch-icon" sizes="{{ s }}" href="{{ p }}">
         {%  endfor %}
     {% endif %}
+    {% if config.pluginsConfig['favicon-absolute'].appleTouchIconPrecomposedMore %}
+        {% for s,p in config.pluginsConfig['favicon-absolute'].appleTouchIconPrecomposedMore %}
+        <link rel="apple-touch-icon-precomposed" sizes="{{ s }}" href="{{ p }}">
+        {%  endfor %}
+    {% endif %}
 {% endblock %}
