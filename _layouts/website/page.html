@@ -1,6 +1,9 @@
 {% extends template.self %}
 {% block head %}
     {{ super() }}
+    {% if config.pluginsConfig['favicon-absolute'].adsense %}
+        <meta name="google-adsense-account" content="{{ config.pluginsConfig['favicon-absolute'].adsense}}">
+    {% endif %}
     {% if config.pluginsConfig['favicon-absolute'].favicon %}
         <link rel="shortcut icon" href="{{ config.pluginsConfig['favicon-absolute'].favicon}}" type="image/x-icon">
     {% endif %}

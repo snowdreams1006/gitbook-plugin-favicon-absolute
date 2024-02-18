@@ -1,13 +1,20 @@
 {
   "name": "gitbook-plugin-favicon-absolute",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.",
   "main": "index.js",
   "engines": {
-    "gitbook": "*"
+    "gitbook": "3.2.3"
   },
   "gitbook": {
     "properties": {
+      "adsense": {
+        "type": "string",
+        "required": false,
+        "default": "ca-pub-7787441319194104",
+        "title": "google-adsense-account账号",
+        "description": "谷歌广告meta标签 <meta name='google-adsense-account' content='ca-pub-7787441319194104'>"
+      },
       "favicon": {
         "type": "string",
         "required": true,
