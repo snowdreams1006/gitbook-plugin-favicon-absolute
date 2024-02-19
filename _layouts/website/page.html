@@ -3,6 +3,8 @@
     {{ super() }}
     {% if config.pluginsConfig['favicon-absolute'].adsense %}
         <meta name="google-adsense-account" content="{{ config.pluginsConfig['favicon-absolute'].adsense}}">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ config.pluginsConfig['favicon-absolute'].adsense}}"
+     crossorigin="anonymous"></script>
     {% endif %}
     {% if config.pluginsConfig['favicon-absolute'].favicon %}
         <link rel="shortcut icon" href="{{ config.pluginsConfig['favicon-absolute'].favicon}}" type="image/x-icon">
