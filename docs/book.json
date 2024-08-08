@@ -12,6 +12,7 @@
     "plugins": [
         "last-update-time",
         "favicon-absolute",
+        "readmore",
         "copyright"
     ],
     "pluginsConfig": {
