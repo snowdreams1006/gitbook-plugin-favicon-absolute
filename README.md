@@ -11,15 +11,9 @@
 
 > favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.
 
-### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute#readme)
-
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/](https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-favicon-absolute/](https://snowdreams1006.gitee.io/gitbook-plugin-favicon-absolute/)
-- GitLab: [https://snowdreams1006.gitlab.io/gitbook-plugin-favicon-absolute/](https://snowdreams1006.gitlab.io/gitbook-plugin-favicon-absolute/)
-
 ## 效果
 
-![favicon-absolute-use-preview.png](favicon-absolute-use-preview.png)
+![favicon-absolute-use-preview.png](https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/favicon-absolute-use-preview.png)
 
 ## 用法
 
@@ -32,7 +26,7 @@
 {
     "plugins": ["favicon-absolute"],
     "pluginsConfig": {
-    	"favicon-absolute":{
+        "favicon-absolute":{
             "favicon": "/favicon.ico",
             "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
         }
@@ -44,42 +38,42 @@
 
 ```json
 "favicon": {
-	"type": "string",
-	"required": true,
-	"default": "/favicon.ico",
-	"title": "网页图标",
-	"description": "网页打开时显示图标"
+    "type": "string",
+    "required": true,
+    "default": "/favicon.ico",
+    "title": "网页图标",
+    "description": "网页打开时显示图标"
 },
 "bookmark": {
-	"type": "string",
-	"required": false,
-	"title": "收藏夹图标",
-	"description": "网页被收藏时显示图标"
+    "type": "string",
+    "required": false,
+    "title": "收藏夹图标",
+    "description": "网页被收藏时显示图标"
 },
 "appleTouchIcon152": {
-	"type": "string",
-	"required": false,
-	"title": "Apple 设备152*152触摸图标",
-	"description": "Apple 设备触摸时152*152触摸显示图标"
+    "type": "string",
+    "required": false,
+    "title": "Apple 设备152*152触摸图标",
+    "description": "Apple 设备触摸时152*152触摸显示图标"
 },
 "appleTouchIconPrecomposed152": {
-	"type": "string",
-	"required": true,
-	"default": "/apple-touch-icon-precomposed-152.png",
-	"title": "Apple 设备152*152触摸高亮图标",
-	"description": "Apple 设备触摸时152*152高亮显示图标"
+    "type": "string",
+    "required": true,
+    "default": "/apple-touch-icon-precomposed-152.png",
+    "title": "Apple 设备152*152触摸高亮图标",
+    "description": "Apple 设备触摸时152*152高亮显示图标"
 },
 "appleTouchIconMore": {
-	"type": "object",
-	"required": false,
-	"title": "Apple 设备自定义尺寸触摸图标",
-	"description": "Apple 设备触摸时自定义尺寸触摸显示图标"
+    "type": "object",
+    "required": false,
+    "title": "Apple 设备自定义尺寸触摸图标",
+    "description": "Apple 设备触摸时自定义尺寸触摸显示图标"
 },
 "appleTouchIconPrecomposedMore": {
-	"type": "object",
-	"required": false,
-	"title": "Apple 设备自定义尺寸触摸高亮图标",
-	"description": "Apple 设备触摸时自定义尺寸高亮显示图标"
+    "type": "object",
+    "required": false,
+    "title": "Apple 设备自定义尺寸触摸高亮图标",
+    "description": "Apple 设备触摸时自定义尺寸高亮显示图标"
 }
 ```
 
@@ -126,7 +120,7 @@ $ gitbook serve
         "favicon-absolute"
     ],
     "pluginsConfig": {
-    	"favicon-absolute":{
+        "favicon-absolute":{
             "favicon": "/favicon.ico",
             "bookmark": "/bookmark.ico",
             "appleTouchIcon152": "/apple-touch-icon-152.png",
@@ -178,6 +172,8 @@ $ gitbook serve
 ## 支持
 
 如果本项目对你有所帮助,欢迎 ⭐️ [gitbook-plugin-favicon-absolute](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute) 项目,感谢你的支持与认可!
+
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
 
 ## 📝 版权
 
