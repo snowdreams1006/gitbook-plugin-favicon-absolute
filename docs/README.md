@@ -11,15 +11,9 @@
 
 > favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.
 
-### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute#readme)
-
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/](https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-favicon-absolute/](https://snowdreams1006.gitee.io/gitbook-plugin-favicon-absolute/)
-- GitLab: [https://snowdreams1006.gitlab.io/gitbook-plugin-favicon-absolute/](https://snowdreams1006.gitlab.io/gitbook-plugin-favicon-absolute/)
-
 ## 效果
 
-![favicon-absolute-use-preview.png](favicon-absolute-use-preview.png)
+![favicon-absolute-use-preview.png](https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/favicon-absolute-use-preview.png)
 
 ## 用法
 
@@ -178,6 +172,8 @@ $ gitbook serve
 ## 支持
 
 如果本项目对你有所帮助,欢迎 ⭐️ [gitbook-plugin-favicon-absolute](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute) 项目,感谢你的支持与认可!
+
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
 
 ## 📝 版权
 
