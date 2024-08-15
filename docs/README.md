@@ -11,10 +11,6 @@
 
 > favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.
 
-## 效果
-
-![favicon-absolute-use-preview.png](https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/favicon-absolute-use-preview.png)
-
 ## 用法
 
 ### Step #1 - 更新 `book.json` 配置文件
@@ -103,59 +99,6 @@ $ gitbook build
 
 ```bash
 $ gitbook serve
-```
-
-## 示例
-
-不仅 [gitbook-plugin-favicon-absolute](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute) **官方文档**已整合 `favicon-absolute` 版权保护插件,此外还提供了示例项目,详情参考 `example` 目录.
-
-- [官方文档](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute/tree/master/docs)
-
-```json
-{
-    "title": "favicon-absolute 插件官方文档",
-    "author": "snowdreams1006",
-    "description": "gitbook-plugin-favicon-absolute 插件官方文档",
-    "plugins": [
-        "favicon-absolute"
-    ],
-    "pluginsConfig": {
-        "favicon-absolute":{
-            "favicon": "/favicon.ico",
-            "bookmark": "/bookmark.ico",
-            "appleTouchIcon152": "/apple-touch-icon-152.png",
-            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png",
-            "appleTouchIconMore": {
-                "120x120": "/apple-touch-icon-120.png",
-                "180x180": "/apple-touch-icon-180.png"
-            },
-            "appleTouchIconPrecomposedMore": {
-                "120x120": "/apple-touch-icon-precomposed-120.png",
-                "180x180": "/apple-touch-icon-precomposed-180.png"
-            }
-        }
-    }
-}
-```
-
-- [官方示例](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute/tree/master/example)
-
-
-```json
-{
-    "title": "favicon-absolute 插件官方简单示例",
-    "author": "snowdreams1006",
-    "description": "gitbook-plugin-favicon-absolute 插件官方简单示例",
-    "plugins": [
-        "favicon-absolute"
-    ],
-    "pluginsConfig":{
-        "favicon-absolute":{
-            "favicon": "favicon.ico",
-            "appleTouchIconPrecomposed152": "apple-touch-icon-precomposed-152.png"
-        }
-    }
-}
 ```
 
 ## 作者
